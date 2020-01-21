@@ -1,0 +1,39 @@
+{
+  "name": "@artsalliancemedia/component-icon-picker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Toobe <toobe.long@artsalliancemedia.com>",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name iconPicker ./src/components/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@artsalliancemedia/aam-ui-vue": "^1.1.69",
+    "core-js": "^3.4.4",
+    "vue": "^2.6.10"
+  },
+  "main": "./dist/iconPicker.common.js",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
+}
