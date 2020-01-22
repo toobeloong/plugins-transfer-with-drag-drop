@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import IconPicker from './IconPicker.vue';
+import Demo from './Demo';
 
-Vue.component('IconPicker', IconPicker);
+Vue.component('Demo', Demo);
 
-export default IconPicker;
+export default Demo;

@@ -1,12 +1,12 @@
-import Vue from 'vue';
-import { Select, Option } from "@artsalliancemedia/aam-ui-vue";
-import App from './App.vue';
+import Vue from "vue";
+import ElementUI from "element-ui";
+import 'element-ui/lib/theme-chalk/index.css';
+import App from "./App";
 
 Vue.config.productionTip = false;
 
-Vue.use(Select);
-Vue.use(Option);
+Vue.use(ElementUI);
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app');
+  render: h => h(App)
+}).$mount("#app");

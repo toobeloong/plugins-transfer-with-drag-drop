@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <icon-picker />
+    <demo />
   </div>
 </template>
 
 <script>
-import IconPicker from './components';
+import Demo from './components';
 
 export default {
   name: 'app',
   components: {
-    IconPicker,
+    Demo,
   },
 };
 </script>

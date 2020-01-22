@@ -1,7 +1,7 @@
 module.exports = {
   configureWebpack: {
     output: {
-      filename: 'iconPicker.common.js'
+      filename: 'vuedragable.common.js'
     },
   },
   devServer: {

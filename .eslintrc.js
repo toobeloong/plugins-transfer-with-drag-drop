@@ -11,7 +11,6 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'arrow-parens': 'off',
-    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['state', 'config', 'error', 'args', 'item'] }],
     'no-shadow': ['error', { allow: ['state', 'getters'] }],
     'object-curly-newline': 'off',
     'max-len': 'off',
@@ -33,6 +32,7 @@ module.exports = {
     ],
     'prefer-destructuring': 'off',
     'prefer-arrow-callback': 'off',
+    'no-param-reassign': 'off'
   },
   parserOptions: {
     parser: 'babel-eslint',
